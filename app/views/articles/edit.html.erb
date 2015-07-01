@@ -9,7 +9,7 @@
 				prohibuted this article from being saved:
 			</h2>
 			<ul>
-				<% @articles.errors.full_messages.each do |msg| %>
+				<% @article.errors.full_messages.each do |msg| %>
 					<li><%= msg %></li>
 				<% end %>
 			</ul>
